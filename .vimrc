@@ -1,4 +1,5 @@
-filetype plugin on " filetype specific settings
+filetype plugin indent on " filetype specific settings
+
 set smartindent
 set tabstop=4 " tabs 4 spaces visually
 set shiftwidth=4
