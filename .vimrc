@@ -1,5 +1,14 @@
 filetype plugin indent on " filetype specific settings
 
+" Start pathogen
+execute pathogen#infect()
+
+" Remaps
+cnoremap NT NERDTree
+nnoremap H gT
+nnoremap L gt
+
+" Settings
 set smartindent
 set tabstop=4 " tabs 4 spaces visually
 set shiftwidth=4
