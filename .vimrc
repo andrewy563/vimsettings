@@ -1,0 +1,14 @@
+filetype plugin on " filetype specific settings
+set smartindent
+set tabstop=4 " tabs 4 spaces visually
+set shiftwidth=4
+set expandtab " tabs are spaces
+syntax enable " enable syntax highlighting
+set nocp " non-compatible (w/ vi) mode
+set wildmenu " auto-complete command on tab
+set wildmode=list:longest,list:full
+set number " line number
+set cursorline " underline current line
+set showmatch " show parentheses/bracket match
+set incsearch           " search as characters are entered
+set hlsearch            " highlight matches
