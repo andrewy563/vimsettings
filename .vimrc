@@ -22,3 +22,5 @@ set cursorline " underline current line
 set showmatch " show parentheses/bracket match
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
+
+colorscheme monokai
